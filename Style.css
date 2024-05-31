@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background: url(./assets/images/background-pattern-desktop.svg), #f9eeff;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% auto;
+}
+.accordian {
+  padding: 0px;
+  position: absolute;
+  background-color: white;
+  width: 50vw;
+  height: auto;
+  top: 13vw;
+  left: 25vw;
+  color: #321434;
+  border-radius: 20px;
+}
+.heading {
+  padding: 0px;
+  font-size: 50px;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 30px 0px 20px 50px;
+}
+
+.heading > img {
+  height: 35px;
+  margin: 7px 8px 1px 0px;
+}
+.Q {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 50px;
+}
+.Q:hover,
+.Q > p:hover {
+  color: #a954ce;
+  cursor: url(./assets/images/icons8-cursor-48.png), auto;
+}
+.Q > p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+.paragraph {
+  display: none;
+  margin: 10px 50px;
+  color: hsl(292, 16%, 49%);
+  font-family: "Work Sans", sans-serif;
+}
